@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-This page provides more context to the POLITIX project, where it strives to uncover how the PACs and Super PACs work in facilitating political campaigns and finances with respect to electorial activities; state or federal. 
+This page provides more context to the [POLITIX](https://github.com/shiyis/politix) project, where it strives to uncover how the PACs and Super PACs work in facilitating political campaigns and finances with respect to electoral activities; state or federal.
 
 ---
 
@@ -13,13 +13,13 @@ This study delves into the world of federal election candidacy, aiming to unders
 
 On the demo website, I have created visualization in order to,
 
-**Understanding PAC Finance:**
+**Understand PAC Finance:**
 
 - Political Action Committees (PACs) are groups that raise money to support political candidates.
 - PACs can donate money directly to candidates or spend money on advertising and other activities to support them.
 - By analyzing PAC finance data, we can see which PACs are supporting which candidates and how much money they're giving.
 
-**Exploring Geographic Data:**
+**Explore Geographic Data:**
 
 - Geography plays a big role in elections. Different areas have different kinds of voters and different issues that matter to them.
 - We'll use geographic data to see where candidates are getting support from and where they're spending their time campaigning.
@@ -43,7 +43,7 @@ On the demo website, I have created visualization in order to,
 - Our analysis aims to provide a clear picture of the dynamics at play in the electoral process, helping to inform future research and decision-making.
 
 ---
-<!-- 
+<!--
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
 [README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
