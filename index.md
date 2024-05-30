@@ -1,5 +1,5 @@
 ---
-title: Project Intro
+title: Premise and Context
 layout: home
 nav_order: 1
 ---
@@ -11,14 +11,6 @@ This page provides more context to the [POLITIX](https://github.com/shiyis/polit
 **Introduction: Exploratory Analysis of Federal Election Candidacy**
 
 This study delves into the world of federal election candidacy, aiming to understand how candidates run for office, who supports them financially, and how geography influences their campaigns.
-
-In socio-politics, quantified approaches and modeling techniques are applied in supporting and facilitating political analyses. Individuals, parties, committees and other political entities come together and try to push forward campaigns in hope to receive appropriate patrionization and support for their political agenda.
-
-The Political Action Committees (PACs or Super PACs) amass funding resources that could benefit the elections. These type of fundings could be from other individuals, or political entities. For the sole of purpose of understanding what the processes of fundraising activities like these really are, this part of the project explores the 2021-2022 PACs financial data.
-
-This part of the project will first present the receipts, disbursements, and other expenditures in terms of propagating political actions in visualization format grounded in states; for example, how many different political action committees there are by US states. This part of the project will also break down all the candidates of 2022 their basic information as mentioned above including their basic demographics, political party affiliation, election cycle, and incumbency.
-
-All info is retrievable through the Federal Election Commission's directory.
 
 On the demo website, I have created visualization in order to,
 
