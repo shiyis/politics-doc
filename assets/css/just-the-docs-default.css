@@ -297,6 +297,7 @@ body {
  */
 main {
   display: block;
+  /* margin: 0rem 5rem 0rem 5rem; */
 }
 
 /**
@@ -742,7 +743,7 @@ blockquote {
 }
 @media (min-width: 50rem) {
   .main-content-wrap {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     padding-bottom: 2rem;
     margin: 0;
     max-width: 100%;
@@ -1091,7 +1092,7 @@ body {
 .main-content h6,
 .main-content #toctitle {
   position: relative;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 0.25em;
   padding-bottom: 0.5em;
 }
