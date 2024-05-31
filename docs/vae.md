@@ -7,13 +7,15 @@ nav_order: 2
 {% include latex_template.html %}
 
 
-
+<!--
 ## Measuring Political Subjectivity with Variational Auto Encoding Methods
-{: .fs-5 .fw-700 .text-delta }
+{: .fs-5 .fw-700 .text-delta } -->
 
-The model performs inference using [variational inference](https://arxiv.org/abs/1601.00670) with [reparameterization gradients](https://arxiv.org/abs/1312.6114) [](href=https://arxiv.org/abs/1401.4082). What this means is imagine you have a bunch of cat pictures, and you want to generate new, realistic cat pictures that you've never seen before.
+The model performs inference using [variational inference](https://arxiv.org/abs/1601.00670) with [reparameterization gradients](https://arxiv.org/abs/1312.6114) [](href=https://arxiv.org/abs/1401.4082). A **VAE** or Variational Auto Encoding technique would learn to represent the underlying patterns and structures of cat pictures in a lower-dimensional latent space.
 
-A **VAE** would learn to represent the **underlying patterns and structures of cat pictures in a lower-dimensional latent space. This latent space would capture the essential features of cat pictures, such as the shape of the ears, the color of the fur, and the length of the tail.** The **VAE** would then use this latent space to generate new cat pictures that are similar to the ones it's seen before.,
+---
+
+What this means is imagine you have a bunch of cat pictures, and you want to generate new, realistic cat pictures that you've never seen before. **This latent space would capture the essential features of cat pictures, such as the shape of the ears, the color of the fur, and the length of the tail.** The **VAE** would then use this latent space to generate new cat pictures that are similar to the ones it's seen before.,
 
 In the context of topic modeling, **VAEs** can be used to learn a probabilistic representation of topics in a document collection. The latent space would capture the underlying themes and patterns in the documents, and the **VAE** would generate topic distributions for each document based on this latent space.
 
@@ -54,13 +56,13 @@ Again, because it is intractable to evaluate the posterior distribution $p(\thet
 Thus, the goal is to maximize the ELBO with respect to $$\phi = \{\mu_\theta, \sigma_\theta, \mu_\beta, \sigma_\beta,\mu_\eta, \sigma_\eta, \mu_x, \sigma_x\}$$.,
 The most important is the initializations of the variational parameters $$\phi$$ and their respective variational distributions:
 
- `loc`: location variables $\mu$
+$$\textbf{loc}\text{: location variables } \mu$$
 
- `scale`: scale variables $\sigma$
+$$\textbf{scale}\text{: scale variables } \sigma$$
 
- $\mu_\eta$: `ideological_topic_loc`
+$$\mu_\eta \text{: ideological_topic_loc} $$
 
- $\sigma_\eta$: `ideological_topic_scale`
+$$\sigma_\eta \text{: ideological_topic_scale}$$
 
 
 The corresponding variational distribution is `ideological_topic_distribution`.  Below summarizes the above formulas in plainer language.
@@ -75,7 +77,7 @@ The corresponding variational distribution is `ideological_topic_distribution`. 
 **The parameters of the variational family can be interpreted as the estimated distributions of topics.** These distributions are used to project latent information onto the documents and words. Each document gets a distribution over topics, and each topic gets a distribution over words.
 
 {: .note}
-**The algorithm, through this variational inference process, discovers latent topics in the corpora based on how words co-occur across documents.** Alternatively, it's measuring the pointwise mutual information between two probability distributions.**
+**The algorithm, through this variational inference process, discovers latent topics in the corpora based on how words co-occur across documents.** Alternatively, it's measuring the pointwise mutual information between two probability distributions.
 
 The default corpus for this Colab notebook is, [Senate speeches](https://data.stanford.edu/congress_text). The project also used the following corpora:
 
