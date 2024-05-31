@@ -1,5 +1,11 @@
 .site-title {
         padding-top: 2rem;
+        font-size: 24px; /* adjust font size */
+        font-weight: bold; /* adjust font weight */
+        color: #333; /* adjust text color */
+        text-decoration: none; /* remove underline */
+        border-bottom: 2px solid #ccc; /* add bottom border */
+        /* padding-bottom: 5px; /* add padding */ */
 }
 
 
