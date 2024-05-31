@@ -1,7 +1,7 @@
 ---
-title: Premise and Context
+title: Political Action Cmtes
 layout: home
-nav_order: 1
+nav_order: 2
 ---
 
 This page provides more context to the [POLITIX](https://github.com/shiyis/politix) project, where it strives to uncover how the PACs and Super PACs work in facilitating political campaigns and finances with respect to electoral activities; state or federal.
@@ -10,9 +10,7 @@ This page provides more context to the [POLITIX](https://github.com/shiyis/polit
 
 **Introduction: Exploratory Analysis of Federal Election Candidacy**
 
-This study delves into the world of federal election candidacy, aiming to understand how candidates run for office, who supports them financially, and how geography influences their campaigns.
-
-On the demo website, I have created visualization in order to,
+This study delves into the world of federal election candidacy, aiming to understand how candidates run for office, who supports them financially, and how geography influences their campaigns. In the demo website, I have created visualization in order to,
 
 **Understand PAC Finance:**
 

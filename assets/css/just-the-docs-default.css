@@ -1650,15 +1650,15 @@ h6,
   appearance: none;
 }
 
-/* .search {
+.search {
   position: relative;
   z-index: 2;
   flex-grow: 1;
   height: 4rem;
   padding: 0.5rem;
   transition: padding linear 200ms;
-} */
-/* @media (min-width: 50rem) {
+}
+@media (min-width: 50rem) {
   .search {
     position: relative !important;
     width: auto !important;
@@ -1666,7 +1666,7 @@ h6,
     padding: 0;
     transition: none;
   }
-} */
+}
 
 .search-input-wrap {
   position: relative;
