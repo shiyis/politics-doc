@@ -1,5 +1,5 @@
 ---
-title: Political Action Cmtes
+title: Political Action Comm.
 layout: home
 nav_order: 2
 ---
