@@ -182,6 +182,9 @@ kramdown:
     block:
       line_numbers: false
 
+include:
+  - assets/css/custom.css
+
 compress_html:
   clippings: all
   comments: all
