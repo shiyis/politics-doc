@@ -8,8 +8,14 @@ nav_order: 2
 
 
 <!--
-## Measuring Political Subjectivity with Variational Auto Encoding Methods
 {: .fs-5 .fw-700 .text-delta } -->
+<div class="text-center">
+
+
+Measuring Political Subjectivity with Variational Auto Encoding Methods
+</div>
+{: .fs-5 .fw-700 .text-delta}
+
 
 The model performs inference using [variational inference](https://arxiv.org/abs/1601.00670) with [reparameterization gradients](https://arxiv.org/abs/1312.6114) [](href=https://arxiv.org/abs/1401.4082). A **VAE** or Variational Auto Encoding technique would learn to represent the underlying patterns and structures of cat pictures in a lower-dimensional latent space.
 

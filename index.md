@@ -1,5 +1,5 @@
 ---
-title: Project Intro & Roadmap
+title: Project Introduction
 layout: home
 nav_order: 1
 ---
@@ -12,11 +12,12 @@ nav_order: 1
 
 This Is A Political Text Ideology Extraction Project
 </div>
-{: .fs-5 .fw-600 .text-delta}
+{: .fs-5 .fw-700 .text-delta}
 
 
 `POLITIX` is meant to help someone who is interested in voting activities understand the political leaning of a candidate for federal elections through quantitative measures and data-driven procedures.
 
+---
 
 <div class="text-center">
 Issue
@@ -38,17 +39,19 @@ Draws inspiration from websites like [OpenSecrets](http://opensecrets.org), [Vot
 Helps the general population who is interested in partaking in political activities understand a politician's (or anyone who authors political content) stance by extracting crucial information from relevant political text.
 
 
----
-
 <div class="text-center">
 Types of Polarization
 </div>
 {: .fs-4 .fw-700}
 
 
-![image](./assets/images/roadmap.jpeg)
+<!-- ![alt=image1]() -->
 
----
+<div style="text-align: center;">
+
+<img src="./assets/images/roadmap.jpeg" alt="Description" width="1200" height="1000">
+</div>
+
 
 <div class="text-center">
 Method
@@ -56,9 +59,16 @@ Method
 {: .fs-4 .fw-700}
 
 
-- A one-dimensional space onto which the author's political stance ("ideological topics") is projected as an ideal point.
+1. A one-dimensional space onto which the author's political stance ("ideological topics") is projected as an ideal point.
 
-- Without the aid of any labels or preconceived political information, the solution could still separate the authors by parties and relevant politicized topics.
 
----
-![image](./assets/images/method.png)
+
+2. Without the aid o any labels or preconceived political information, the solution could still separate
+the authors by parties and relevant politicized topics.
+
+
+<div style="text-align: center;">
+
+
+
+<img src="./assets/images/method.png" alt="Description" width="1200" height="1000">

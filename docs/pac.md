@@ -5,9 +5,19 @@ nav_order: 2
 ---
 
 
-**More on Super PACs, Campaign Finances, And Independent Expenditures**
+<div class="text-center">
 
-The Citizens United v. Federal Election Commission (2010) decision had a significant impact on the formation of super PACs, leading to a proliferation of these entities and a dramatic increase in their influence on the political landscape. Here's how:
+
+More on Super PACs, Campaign Finances, And Independent Expenditures
+</div>
+{: .fs-5 .fw-700 .text-delta}
+
+
+`The Citizens United v. Federal Election Commission (2010)` decision had a significant impact on the formation of super PACs, leading to a proliferation of these entities and a dramatic increase in their influence on the political landscape.
+
+---
+
+Here's how:
 
 **Removal of spending limits**
 
@@ -48,4 +58,4 @@ The Citizens United v. Federal Election Commission (2010) decision had a signifi
 - Shift in political power: The rise of super PACs has shifted power from traditional political parties and candidates to these outside groups, which can now wield significant influence over the political process.
 
 
-In summary, the Citizens United decision paved the way for the creation of super PACs, which can raise and spend unlimited amounts of money to influence elections. This has led to a significant increase in the influence of outside groups on the political process, raising concerns about the impact of money on politics and the potential for dark money to shape election outcomes. -->
+In summary, the Citizens United decision paved the way for the creation of super PACs, which can raise and spend unlimited amounts of money to influence elections. This has led to a significant increase in the influence of outside groups on the political process, raising concerns about the impact of money on politics and the potential for dark money to shape election outcomes. 

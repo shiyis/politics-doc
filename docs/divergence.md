@@ -1,4 +1,4 @@
 ---
-title: Understanding Divergence
+title: Measuring Divergence
 layout: home
 ---
