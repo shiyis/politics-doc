@@ -16,8 +16,8 @@
 title: "POLITICS Doc"
 description: This Blog Documents Supplementary Information To Help Understand The POLITICS Project
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/shiyis/politix-docs" # the base hostname & protocol for your site, e.g. http://example.com
-repository: shiyis/politix-docs # for github-metadata
+url: "https://github.com/shiyis/politics-doc" # the base hostname & protocol for your site, e.g. http://example.com
+repository: shiyis/politics-doc # for github-metadata
 
 permalink: pretty
 
