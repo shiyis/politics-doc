@@ -654,7 +654,7 @@ p {
 * {
   hyphens: auto;
   word-wrap: break-word;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 /* p::after {
@@ -912,7 +912,7 @@ body {
   position: relative;
   padding-bottom: 4rem;
   overflow-y: scroll;
-  font-family: math, sans-serif, systen-ui;
+  font-family: system-ui;
 }
 @media (min-width: 50rem) {
   body {
