@@ -10,7 +10,7 @@ nav_order: 1
 <div class="text-center">
 
 
-Measuring Political Subjectivity And Polarizations
+Measuring Political Subjectivity And Polarization
 
 </div>
 {: .fs-5 .fw-700 .text-delta}
