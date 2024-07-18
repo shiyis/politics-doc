@@ -22,15 +22,17 @@ $$ \text{SED}(p, q) = \sum_{i} (p_i - q_i)^2 $$
 
 **Python Code Example:**
 ```python
-import numpy as np
 
-def squared_euclidean_distance(p, q):
-    return np.sum((p - q) ** 2)
+    import numpy as np
 
-# Example usage:
-p = np.array([1, 2, 3])
-q = np.array([4, 5, 6])
-print("Squared Euclidean Distance:", squared_euclidean_distance(p, q))
+    def squared_euclidean_distance(p, q):
+        return np.sum((p - q) ** 2)
+
+    # Example usage:
+    p = np.array([1, 2, 3])
+    q = np.array([4, 5, 6])
+    print("Squared Euclidean Distance:", squared_euclidean_distance(p, q))
+
 ```
 
 ### 2. Kullback-Leibler Divergence (Relative Entropy)
@@ -43,15 +45,17 @@ $$ D_{\text{KL}}(P \| Q) = \sum_{i} P(i) \log \frac{P(i)}{Q(i)} $$
 
 **Python Code Example:**
 ```python
-import numpy as np
 
-def kl_divergence(p, q):
-    return np.sum(p * np.log(p / q))
+    import numpy as np
 
-# Example usage:
-p = np.array([0.1, 0.4, 0.5])
-q = np.array([0.2, 0.2, 0.6])
-print("Kullback-Leibler Divergence:", kl_divergence(p, q))
+    def kl_divergence(p, q):
+        return np.sum(p * np.log(p / q))
+
+    # Example usage:
+    p = np.array([0.1, 0.4, 0.5])
+    q = np.array([0.2, 0.2, 0.6])
+    print("Kullback-Leibler Divergence:", kl_divergence(p, q))
+
 ```
 
 ### 3. f-Divergences
@@ -64,16 +68,18 @@ $$ D_f(P \| Q) = \sum_{i} Q(i) f\left( \frac{P(i)}{Q(i)} \right) $$
 
 **Python Code Example:**
 ```python
-import numpy as np
 
-def f_divergence(p, q, f):
-    return np.sum(q * f(p / q))
+    import numpy as np
 
-# Example usage with a specific f (for example, the function used in KL divergence, f(t) = t * log(t)):
-f = lambda t: t * np.log(t)
-p = np.array([0.1, 0.4, 0.5])
-q = np.array([0.2, 0.2, 0.6])
-print("f-Divergence:", f_divergence(p, q, f))
+    def f_divergence(p, q, f):
+        return np.sum(q * f(p / q))
+
+    # Example usage with a specific f (for example, the function used in KL divergence, f(t) = t * log(t)):
+    f = lambda t: t * np.log(t)
+    p = np.array([0.1, 0.4, 0.5])
+    q = np.array([0.2, 0.2, 0.6])
+    print("f-Divergence:", f_divergence(p, q, f))
+
 ```
 
 ### 4. Bregman Divergences
@@ -86,17 +92,19 @@ $$ D_{\phi}(p, q) = \phi(p) - \phi(q) - \nabla \phi(q) \cdot (p - q) $$
 
 **Python Code Example:**
 ```python
-import numpy as np
 
-def bregman_divergence(p, q, phi, grad_phi):
-    return phi(p) - phi(q) - np.dot(grad_phi(q), (p - q))
+    import numpy as np
 
-# Example usage with a specific phi (for example, the squared Euclidean function):
-phi = lambda x: np.sum(x ** 2)
-grad_phi = lambda x: 2 * x
-p = np.array([1, 2, 3])
-q = np.array([4, 5, 6])
-print("Bregman Divergence:", bregman_divergence(p, q, phi, grad_phi))
+    def bregman_divergence(p, q, phi, grad_phi):
+        return phi(p) - phi(q) - np.dot(grad_phi(q), (p - q))
+
+    # Example usage with a specific phi (for example, the squared Euclidean function):
+    phi = lambda x: np.sum(x ** 2)
+    grad_phi = lambda x: 2 * x
+    p = np.array([1, 2, 3])
+    q = np.array([4, 5, 6])
+    print("Bregman Divergence:", bregman_divergence(p, q, phi, grad_phi))
+
 ```
 
 ### Explanation:
