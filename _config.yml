@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "POLITICS Doc"
+title: "POLITICS Docs"
 description: This Blog Documents Supplementary Information To Help Understand The POLITICS Project
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/shiyis/politics-doc" # the base hostname & protocol for your site, e.g. http://example.com
-repository: shiyis/politics-doc # for github-metadata
+url: "https://github.com/shiyis/politics-docs" # the base hostname & protocol for your site, e.g. http://example.com
+repository: shiyis/politics-docs # for github-metadata
 
 permalink: pretty
 
