@@ -153,7 +153,7 @@ To delve deeper into each concept, let's provide more detailed examples and expl
  plt.show()
  ```
 
-**Cultural Polarization**
+4. **Cultural Polarization**
 
  - **Detailed Example**: Cultural polarization can be studied by examining how different cultural practices and values are distributed within a population. Surveys or focus groups might be used to gather data on attitudes towards cultural symbols, language use, or religious practices.
  - **Code Example**:

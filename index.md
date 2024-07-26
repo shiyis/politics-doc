@@ -25,7 +25,7 @@ Issue
 </div>
 {: .fs-4 .fw-700}
 
-Sometimes a piece of political discourse could be very complicated and hard to decipher. And often human interpretation tends to be subjective and biased" (Chilton, 2004; van Dijk, 2000).
+Sometimes a piece of political discourse could be very complicated and hard to decipher. And often human interpretation tends to be subjective and biased (Chilton, 2004; van Dijk, 2000).
 
 <div class="text-center">
 Important Context
