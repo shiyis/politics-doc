@@ -24,33 +24,37 @@ Understanding the importance and definitions of various forms of polarization is
 
 -  **Definition**: Ideological polarization refers to the growing divide in political beliefs and values between different groups, usually represented on a left-right spectrum.
 -  **Analysis**:
- -  **Manifestation**: People with extreme left or right beliefs become more numerous, while those with centrist views become less common.
- -  **Impact**: This can lead to political gridlock, as finding common ground becomes more difficult.
- -  **Example**: In the US, ideological polarization is evident in the strong divide between conservative Republicans and liberal Democrats.
+
+   -  **Manifestation**: People with extreme left or right beliefs become more numerous, while those with centrist views become less common.
+   -  **Impact**: This can lead to political gridlock, as finding common ground becomes more difficult.
+   -  **Example**: In the US, ideological polarization is evident in the strong divide between conservative Republicans and liberal Democrats.
 
 **Affective Polarization**
 
 -  **Definition**: Affective polarization is the phenomenon where people not only disagree on issues but also hold negative emotions towards those with opposing views.
 -  **Analysis**:
- -  **Manifestation**: Increased hostility and distrust between groups, leading to social fragmentation.
- -  **Impact**: It can hinder productive political discourse and cooperation.
- -  **Example**: Studies showing that members of one political party view the other party’s members with increasing animosity.
+
+   -  **Manifestation**: Increased hostility and distrust between groups, leading to social fragmentation.
+   -  **Impact**: It can hinder productive political discourse and cooperation.
+   -  **Example**: Studies showing that members of one political party view the other party’s members with increasing animosity.
 
 **Social Polarization**
 
 -  **Definition**: Social polarization occurs when society divides into distinct social groups based on socio-economic status, ethnicity, or other demographic factors.
 -  **Analysis**:
- -  **Manifestation**: Different groups lead separate lives with little interaction, reinforcing stereotypes and biases.
- -  **Impact**: This segregation can exacerbate inequality and social tension.
- -  **Example**: Urban areas in many countries are segregated by income or race, leading to isolated communities.
+
+   -  **Manifestation**: Different groups lead separate lives with little interaction, reinforcing stereotypes and biases.
+   -  **Impact**: This segregation can exacerbate inequality and social tension.
+   -  **Example**: Urban areas in many countries are segregated by income or race, leading to isolated communities.
 
 **Cultural Polarization**
 
 -  **Definition**: Cultural polarization refers to the division of society into groups with distinct cultural identities, values, and practices.
 -  **Analysis**:
- -  **Manifestation**: Differing cultural values can lead to conflicts over national identity and social policies.
- -  **Impact**: It can create challenges in integrating diverse groups within a single national framework.
- -  **Example**: Debates over the role of religion in public life or policies on immigration.
+
+   -  **Manifestation**: Differing cultural values can lead to conflicts over national identity and social policies.
+   -  **Impact**: It can create challenges in integrating diverse groups within a single national framework.
+   -  **Example**: Debates over the role of religion in public life or policies on immigration.
 
 ### Measuring Polarization
 
@@ -99,7 +103,8 @@ To delve deeper into each concept, let's provide more detailed examples and expl
  import pandas as pd
 
  # Sample data
- data = {'Political_Belief': ['Very Liberal', 'Liberal', 'Moderate', 'Conservative', 'Very Conservative'],
+ data = {'Political_Belief': ['Very Liberal', 'Liberal', 'Moderate',
+ 'Conservative', 'Very Conservative'],
          'Count_2000': [10, 20, 50, 15, 5],
          'Count_2020': [5, 15, 30, 25, 25]}
 
