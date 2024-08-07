@@ -1,6 +1,7 @@
 ---
 title: Measuring Divergence
 layout: home
+nav_order: 6
 ---
 
 {% include latex_template.html %}

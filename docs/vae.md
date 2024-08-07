@@ -40,7 +40,7 @@ The variational family is set to be the mean-field family, meaning the latent va
 
 Lognormal factors are used for the positive variables and Gaussian factors for the real variables:
 
- $$q(\theta_d) = \text{LogNormal}_K(\mu_{\theta_d}\sigma^2_{\theta_d})\\$$
+ $$q(\theta_d) = \text{LogNormal}_K(\mu_{\theta_d},\sigma^2_{\theta_d})\\$$
 
  $$q(\beta_k) = \text{LogNormal}_V(\mu_{\beta_k}, \sigma^2_{\beta_k})\\$$
 
