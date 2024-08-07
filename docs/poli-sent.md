@@ -1,6 +1,6 @@
 ---
 title: Social Identity & Politics
-nav_order: 6
+nav_order: 2
 layout: home
 ---
 
